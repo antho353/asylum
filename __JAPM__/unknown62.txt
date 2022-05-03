@@ -1,0 +1,2 @@
+#include"..\..\..\..\..\macro.h"
+disableSerialization;createDialog"life_admin_event_menu";if((call life_adminLevel)<2) exitWith{closeDialog 0;};waitUntil{!isNull(findDisplay 3900)};private _display=findDisplay 3900;private _eventList=_display displayCtrl 3901;private _eventLocationsList=_display displayCtrl 3902;showChat false;private _eventData=["getEvents"]call life_fnc_eventCfg;
