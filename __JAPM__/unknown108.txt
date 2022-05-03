@@ -1,1 +1,0 @@
-class life_loadingScreen{idd=388000;name="life_loadingScreen";duration=1e+007;movingEnable=0;fadein=0;fadeout=0;onLoad="uiNamespace setVariable ['life_loadingScreen', _this select 0]";onUnload="uiNamespace setVariable ['life_loadingScreen', nil]";class controls{class loadingPicture:Life_RscPictureKeepAspect{idc=388001;

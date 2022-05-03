@@ -1,1 +1,0 @@
-with missionNamespace do{params[["_params",[],[[]]],["_functionName","",[""]],["_target",false,[objnull,false,0,[],sideUnknown,grpNull,""]],["_isPersistent",false,[false,""]],["_isCall",false,[false]]];if(_target isEqualType 0) then{if(isServer&&!isDedicated) then{if(_target isEqualTo-2) then{_target=0;

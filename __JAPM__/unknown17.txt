@@ -1,1 +1,0 @@
-case"medicYelp":{3.914};case"medicQwail":{14.895};};while{!isNull _vehicle&&!isNull(driver _vehicle)&&alive _vehicle}do{_sirenObject say3D[_sirenType,650];uiSleep _length;};if(_driver isEqualTo player) then{if!(isNull life_siren_obj) then{deleteVehicle life_siren_obj;_vehicle setVariable["ga_siren",false,true];};};

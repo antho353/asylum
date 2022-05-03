@@ -1,1 +1,0 @@
-_obj_main addAction["Steal High Value Shipment ($25,000 bribe)",life_fnc_startConvoyRobbery,2,1.5,false,false,"",'playerSide isEqualTo civilian',5];}else{_obj_main addAction["Deliever Stolen Shipment",life_fnc_finishConvoyRobbery,_deliveryModifier,1.5,false,false,"",'(SRV_convoy_status select 0) && playerSide isEqualTo civilian',5];};

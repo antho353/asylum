@@ -1,1 +1,0 @@
-default{[]};};private _buyableItems=_buyableItems arrayIntersect _buyableItems;private _inventoryArray=[];{private _val=missionNameSpace getVariable format["life_inv_%1",_x];if(_val>0&&(_x in _buyableItems)) then{_inventoryArray pushBack[_x,_val];};}forEach([2]call life_fnc_virtItemCfg);_inventoryArray

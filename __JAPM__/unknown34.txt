@@ -1,1 +1,0 @@
-waitUntil{isNull(findDisplay 314)};[["-ADMINACTION-",player,profileName,format["exited admin camera at camera position: %1.",positionCameraToWorld[0,0,0]]],"TON_fnc_logIt",2]spawn life_fnc_MP;
