@@ -1,0 +1,1 @@
+["gangMenuInv"]call life_fnc_createDialog;disableSerialization;private _display=findDisplay 9550;private _list=_display displayCtrl 9555;private _players=(allPlayers-[player]) select{alive _x&&side _x isEqualTo civilian&&_x getVariable["gang_data",[]]isEqualTo[]}apply{name _x};

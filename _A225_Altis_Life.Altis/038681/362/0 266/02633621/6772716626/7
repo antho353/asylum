@@ -1,0 +1,1 @@
+closeDialog 0;(findDisplay 24) displayRemoveEventHandler["KeyDown",rwt_chatcom_chat_eh];(findDisplay 24) closeDisplay 1;(_chatmsg splitString"! ") call RWT_fnc_chatcomExec;true;

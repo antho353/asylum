@@ -1,0 +1,1 @@
+private _asy_display=findDisplay 39400;if(isNull _asy_display) exitWith{};private _sideListGroup=_asy_display displayCtrl 39405;private _sideItemListButton=_sideListGroup controlsGroupCtrl 1001;private _dollarsButton=_sideListGroup controlsGroupCtrl 1006;

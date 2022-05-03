@@ -1,0 +1,1 @@
+_obj_main addAction["<t color='#ADFF2F'>ATM</t>",{[]call life_fnc_atmMenu},nil,2,true,true,"",'isNull objectParent player',5];

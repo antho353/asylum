@@ -1,0 +1,1 @@
+if((uiNamespace getVariable"RscTitleDisplayEmpty") isNotEqualTo controlNull) then{(uiNamespace getVariable["RscTitleDisplayEmpty",displayNull]) closeDisplay 0;};

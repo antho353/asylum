@@ -1,0 +1,1 @@
+if(_lightState) then{_vehicle setVariable["ga_lights",false,true];}else{_vehicle setVariable["ga_lights",true,true];[[_vehicle,0.22],"life_fnc_copLights",-2,false,false]call life_fnc_MP;};

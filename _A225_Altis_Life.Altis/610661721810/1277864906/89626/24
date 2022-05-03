@@ -1,0 +1,1 @@
+publicVariable"randomized_life_group_list";ctrlEnable[2627,true];ctrlEnable[2626,false];};case(getPlayerUID player==_ownerID):{randomized_life_group_list set[_index,[_name,_group,false,_ownerID,_password]];publicVariable"randomized_life_group_list";ctrlEnable[2626,false];ctrlEnable[2627,true];};};[]spawn life_fnc_groupManagement;

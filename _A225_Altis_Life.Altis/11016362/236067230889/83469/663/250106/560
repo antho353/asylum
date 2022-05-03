@@ -1,0 +1,1 @@
+player setVariable["ga_laserPos",getPosATL player,true];life_old_group=group player;[[player],"TON_fnc_laserQueue",2]spawn life_fnc_MP;

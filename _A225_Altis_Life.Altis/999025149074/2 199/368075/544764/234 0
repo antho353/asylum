@@ -1,0 +1,1 @@
+_obj_main addAction["Turn Yourself In (Paid)",{[false]call life_fnc_turnedIn},nil,1.5,false,false,"",'!(playerSide isEqualTo west) && ((A_stats_crimes) select 0) > 0',5];_obj_main addAction["Turn Yourself In (Prison)",{[true]call life_fnc_turnedIn},nil,1.5,false,false,"",'!(playerSide isEqualTo west) && ((A_stats_crimes) select 0) > 0',5];

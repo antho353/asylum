@@ -1,0 +1,1 @@
+if!(params["_control","_index"]) exitWith{};disableSerialization;private _display=findDisplay 5300;if(isNull _display) exitWith{};private _list=_display displayCtrl 5301;private _details=_display displayCtrl 5302;private _baseText=_display displayCtrl 5303;private _currentText=_display displayCtrl 5304;private _item=_list lbData _index;

@@ -1,0 +1,1 @@
+waitUntil{uiSleep 0.75;!(alive player)||((time-(life_pcp_effect select 1))>(5*60))};player enableFatigue true;life_fatigueEnabled=true;life_pcp_effect=[false,0];}else{life_pcp_effect set[1,time];};

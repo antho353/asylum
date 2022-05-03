@@ -1,0 +1,1 @@
+ctrlSetText[2651,format["Ticketing %1",[name _unit]call life_fnc_cleanName]];life_ticket_unit=_unit;

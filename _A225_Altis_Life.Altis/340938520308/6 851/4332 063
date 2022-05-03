@@ -1,0 +1,1 @@
+};}forEach life_waitAndExecArray;life_nextFrameBufferA=life_nextFrameBufferB;life_nextFrameBufferB=[];life_nextFrameNo=diag_frameNo+1;{_x params["_condition","_code","_args"];if(_args call _condition) then{_args call _code;life_waitUntilAndExecArray deleteAt(life_waitUntilAndExecArray find _x);};}forEach life_waitUntilAndExecArray;

@@ -1,0 +1,1 @@
+};["You are now fully healed!","basic"]spawn life_fnc_handleMessage;private _asy_dmg=player;_asy_dmg setDamage 0;player setVariable["ga_can_revive",nil,true];[]call life_fnc_hudUpdate;

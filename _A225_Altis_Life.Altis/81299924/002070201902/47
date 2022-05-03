@@ -1,0 +1,1 @@
+closeDialog 0;life_respawned=true;life_inCombat=false;{_x setVariable["ga_aggressive",nil];}forEach allPlayers;private _toSend=(allPlayers-[allDeadMen]-[player]) select{(side _x isEqualTo west&&_x getVariable["ga_copRole",""]in["medic","all"])||side _x isEqualTo independent};

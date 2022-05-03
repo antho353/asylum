@@ -1,0 +1,3 @@
+#include"..\..\outlw_magRepack\Configs\defines.hpp"
+#include"..\..\outlw_magRepack\Configs\MagRepack_Dialog_Main.hpp"
+#include"..\..\outlw_magRepack\Configs\MagRepack_Dialog_Keybindings.hpp"

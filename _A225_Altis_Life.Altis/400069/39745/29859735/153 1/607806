@@ -1,0 +1,1 @@
+_marker setMarkerTextLocal"Gang Building";_marker setMarkerColorLocal"ColorGreen";_marker setMarkerTypeLocal"mil_end";life_gangBldgMark=_marker;["Your gang leader has set a gang house.","basic"]spawn life_fnc_handleMessage;

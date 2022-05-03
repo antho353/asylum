@@ -1,0 +1,1 @@
+params[["_self",true,[true]]];if((call life_adminLevel)<=1) exitWith{closeDialog 0;};private _asy_pos=parseSimpleArray(ctrlText 2929);if(_self) then{player setPosATL _asy_pos;}else{if((lbCurSel 2901) isEqualTo-1) exitWith{["You did not select a player.","basic"]spawn life_fnc_handleMessage;

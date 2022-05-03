@@ -1,0 +1,1 @@
+params[["_vehicle",objNull,[objNull]]];if(isNull _vehicle) exitWith{};if((typeOf _vehicle)=="Steerable_Parachute_F") exitWith{};private _lightState=_vehicle getVariable["ga_lights",false];

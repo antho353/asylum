@@ -1,0 +1,1 @@
+}else{player setVariable["ga_invisOn",false,true];["You are now visible.","basic"]spawn life_fnc_handleMessage;[[player,false,call life_adminLevel],"TON_fnc_visible",2]spawn life_fnc_MP;[["-ADMINACTION-",player,(profileName),format["removed invisibility."]],"TON_fnc_logIt",2,false,false]spawn life_fnc_MP;};

@@ -1,0 +1,1 @@
+private _total=0;{private _itemWeight=getNumber(missionConfigFile>>"CfgWeights">>(_x select 0)>>"weight");

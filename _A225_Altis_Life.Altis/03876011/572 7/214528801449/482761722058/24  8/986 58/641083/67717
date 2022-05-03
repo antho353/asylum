@@ -1,0 +1,1 @@
+params[["_unit",objNull,[objNull]],["_recursive",false,[false]]];if(group _unit isEqualTo group player) exitWith{};private _lastTime=_unit getVariable["ga_aggressive",0];_unit setVariable["ga_aggressive",time];if(_lastTime<(time-10)&&!(_recursive)) then{private _toSend=(units player-[player]) select{player distance _x<=2000};

@@ -1,0 +1,1 @@
+default{format["((findDisplay %1) displayCtrl %2)",ctrlIDD(ctrlParent _list),ctrlIDC _list]};};_button ctrlSetEventHandler["ButtonClick",format["[%1, %2, %3, %4, _this select 0] call life_fnc_listNBoxSort;",_listString,_columnIndex,_sortByValue,!(_isReversed)]];

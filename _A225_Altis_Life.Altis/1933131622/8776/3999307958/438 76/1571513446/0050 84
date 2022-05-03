@@ -1,0 +1,1 @@
+if(life_lastCompCheck>=time) exitWith{["You can only check your mailbox every 10 minutes. Try again later.","basic"]spawn life_fnc_handleMessage;

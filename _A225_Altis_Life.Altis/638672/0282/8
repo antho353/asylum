@@ -1,0 +1,1 @@
+_x setVariable["ga_escorting",nil,true];[[player],"life_fnc_pullOutVeh",_x,false,false]spawn life_fnc_MP;_toPull=_toPull+1;};}}forEach _crew;if(_toPull isEqualTo 0) then{["There is nobody in this vehicle who you're able to remove!","basic"]spawn life_fnc_handleMessage;};

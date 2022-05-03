@@ -1,0 +1,1 @@
+_ret={_x!=player&&side _x==_faction&&alive _x&&_position distance _x<_radius}count playableUnits>0;_ret;

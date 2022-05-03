@@ -1,0 +1,1 @@
+_itemWeight=(["getItemWeight",_shortName]call life_fnc_virtItemCfg)*_val;_calcWeight=_calcWeight+_itemWeight;};}forEach([1]call life_fnc_virtItemCfg);life_carryWeight=_calcWeight;

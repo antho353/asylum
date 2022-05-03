@@ -1,0 +1,1 @@
+life_achievements pushBack _id;["Achievement",[format["Achievement Unlocked: %1",_achievement select 2]]]call BIS_fnc_showNotification;[7]call life_fnc_ClupdatePartial;

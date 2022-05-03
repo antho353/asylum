@@ -1,0 +1,1 @@
+private _price=_list lbValue _index;private _itemBuyInfo=buy_array param[buy_array findIf{(_x select 0) isEqualTo _item},["",-1]];private _basePrice=[_item,_itemBuyInfo select 1,0,false]call life_fnc_calcPrice;_details ctrlSetStructuredText parseText format["<t size='0.90' align='center'>%1</t>",[[_item,0]call life_fnc_varHandle]call life_fnc_varToStr];

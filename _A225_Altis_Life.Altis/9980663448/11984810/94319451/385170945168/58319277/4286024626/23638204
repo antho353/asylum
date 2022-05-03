@@ -1,0 +1,1 @@
+private _repackedMagazines=[];private _currentMagazines=magazines player;{private _magClassname=_x;if!(_magClassname in _repackedMagazines) then{private _MagCapacity=getNumber(configFile>>"CfgMagazines">>_magClassname>>"count");private _totalAmmoCount=0;if(_MagCapacity>1) then{{if((_x param[0,""]) isEqualTo _magClassname) then{_totalAmmoCount=_totalAmmoCount+(_x param[1,0]);

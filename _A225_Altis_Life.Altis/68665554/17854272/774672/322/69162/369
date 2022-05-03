@@ -1,0 +1,1 @@
+private _target=cursorTarget;private _caller=player;private _posCaller=getPos _caller;private _dir=getDir _caller;if(isNull _target) exitWith{};if(_caller distance _target>5) exitWith{};

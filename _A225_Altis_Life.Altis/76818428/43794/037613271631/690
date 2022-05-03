@@ -1,0 +1,79 @@
+player createDiaryRecord["coprules",["General","
+				1: Cops must stay in police channels with their current game name.<br/>
+				2: Cops are not allowed to leak information to civilians. this is grounds for dismissal from the force.<br/>
+				3: Cops may be demoted for selling weapons to civilians or lower grade officers.<br/>
+				4: Cops are not allowed to stay in an illegal area for more than 2 minutes without cause.<br/>
+				5: All people around a crime are able to be restrained and held for a maximum of 10 minutes until the issue is resolved.<br/>
+				6: Any police engagement must be complete before vehicles are able to be impounded/seized.<br/>
+				7: No ticket/arrest will be issued more than one time per bounty.<br/>
+				8: Less-lethal ammunition should be loaded unless given authorization by the appropriate officer on-scene.<br/>
+				9: Civilians can be arrested for interfering with an officer or failing to follow commands such as vacating an area and moving vehicles.<br/>
+				10: A person or vehicle cannot be searched without consent unless the officer has probable cause and states such at the time of the search.<br/>
+				11: Cops must have undivided loyalty to the police department at all times when in uniform, and must not grant special favours for civilians, or take bribes or payments of any sort, whether monetary or otherwise.<br/>
+				"]];player createDiaryRecord["coprules",["Chain of Command","
+			The highest ranking officer on duty is in charge of the police force as a whole on the server. The highest ranking officer in each City/Patrol Group is responsible to lead the officers under his/her care with all due diligence expected of his/her position. Report any misconduct of officers on our forums for review by the Lieutenants and Captains<br/><br/>
+
+			Police Chain of Command:<br/>
+			1. Captain<br/>
+			2. Lieutenant<br/>
+			3. Sergeant<br/>
+			4. Corporal<br/>
+			5. Constable<br/>
+			6. Cadet<br/>
+			"]];player createDiaryRecord["civrules",["","
+				1: Racist, misogynist, hateful, etc. speech is not tolerated. Being a bigot is grounds for a permanent ban.<br/>
+				2: Once killed you are not allowed to seek revenge on the person or group that killed you without re-initiation of roleplay.<br/>
+				3: Civilians cannot keep anyone restrained or hostage for more than ten minutes without gaining the consent of the victim. If you have been restrained by civilians for 10 minutes or more, you may disconnect without fear of punishment.<br/>
+				"]];player createDiaryRecord["features",["Features","
+					1: Player Housing: The first step to owning a home is obtaining a home owner license from the DMV. With the license, find a vacant home in the world and you may see a buy house action menu option. You may lock doors of your homes and with access to Home Improvements, place storage containers in your homes. Larger and more expensive homes will offer more storage ability. You have the ability to spawn at your home upon death. Additionally, you may own garages and access your garage from them! (Be careful, vehicles larger than the garage may result in explosions).<br/>
+					2: Hostage Taking: You can take hostages in Asylum Life by having another player press the TAB key, this will activate surrender mode. You may also shoot your target with a less-lethal weapon. When your target is in surrender mode or downed, you can restrain, escort, put into, and pull them out of vehicles.<br/>
+					3: Cartels: Gangs may take control of various cartel locations in order to gain financial or other benefits. Claim your territory!<br/>
+					4: Full Saving: On Aslyum Life, everything saves. Your location, your equipment, your inventory items, and your vehicles.<br/>
+					5: Drug Running Missions: Proceed to Drug Runner points and race against time to deliver a plane full or drugs to another location! Successful runs will reward you greatly; failing will result in monetary losses, however. (REQUIRES APEX DLC)<br/>
+				"]];player createDiaryRecord["controls",["","
+				1: Open wanted/bounty list<br/>
+				3: Open virtual inventory<br/>
+				4: Holster active weapon<br/>
+				5: Open phone messaging<br/>
+				6: Activate vehicle nitrous<br/><br/>
+
+				TAB: Surrender<br/>
+				H: Holster active weapon<br/>
+				Y: Open player menu<br/>
+				U: Lock and unlock cars<br/>
+				F: Siren (if cop or paramedic)<br/>
+				Shift + F: Phaser Siren (if cop)<br/>
+				Ctrl + F: Yelp Siren (if cop)<br/>
+				Shift + L: Cop Lights (if cop)<br/>
+				T: Vehicle trunk<br/><br/>
+				Shift + B: Spray Can (Subscriber Only)<br/>
+
+				Custom 1: Open player menu<br/>
+				Custom 2: Pickup nearby items<br/>
+				Custom 3: Open virtual inventory<br/>
+				Custom 4 - Restrain hotkey<br/>
+				Custom 5: Toggle AutoRun,AutoDrive<br/>
+				Custom 6: Use Virtual FAK<br/>
+				Custom 7: Toggle Lethals (If cop)<br/>
+				Custom 8: Speed radar (if cop)<br/>
+				Custom 9: Activate spike strip<br/>
+				Custom 10: Interaction key<br/>
+				Custom 11: Consume Red Gull<br/>
+				Custom 12: Toggle Earplugs<br/>
+				Custom 13: Lockpick<br/>
+				Custom 15: Detonate Suicide Vest<br/>
+				Custom 16 - Cease Fire (Subscriber Only)<br/>
+				Custom 17 - Nod Yes<br/>
+				Custom 18 - Nod No<br/>
+				Custom 19 - Point<br/>
+				Custom 20 - Halt/Stop<br/>
+				"]];player createDiaryRecord["chatcommands",["","
+					!911 'messagehere' - Emergency Request To APD<br/>
+					!311 'messagehere' - Emergency Request To AFD<br/>
+					!r 'messagehere' - Respond To Last Player That Texted You<br/>
+					!e 'emotename'- Plays Given Emote<br/>
+					!comp - Check Mailbox For Comp<br/>
+					!spray - Change Spray Can Spray<br/>
+					!stats - Check MyAsylum Stats<br/>
+					!loginbonus - Receive your login bonus loot<br/>
+					"]];

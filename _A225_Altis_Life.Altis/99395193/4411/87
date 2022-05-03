@@ -1,0 +1,1 @@
+params[["_pName","",[""]],["_pUID","",[""]],["_pReason","",[""]]];if(_pName isEqualTo""||_pUID isEqualTo""||_pReason isEqualTo"") exitWith{};

@@ -1,0 +1,1 @@
+removeHeadGear player;{player unassignItem _x;player removeItem _x;}forEach(assignedItems player);if!(hmd player isEqualTo"") then{player unlinkItem(hmd player);};

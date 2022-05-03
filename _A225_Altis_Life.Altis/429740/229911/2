@@ -1,0 +1,1 @@
+params[["_item","",[""]],["_value",-1,[0]],["_cWeight",-1,[0]],["_mWeight",-1,[0]]];if(_item isEqualTo""||_value isEqualTo-1||_cWeight isEqualTo-1||_mWeight isEqualTo-1) exitWith{};private _weight=(["getItemWeight",_item]call life_fnc_virtItemCfg)*_value;

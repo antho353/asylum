@@ -1,0 +1,1 @@
+if!(life_pcp_effect select 0) then{player setFatigue 1;player enableFatigue false;life_fatigueEnabled=false;life_pcp_effect=[true,time];titleText["You can now run farther for 6 minutes","PLAIN"];

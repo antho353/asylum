@@ -1,0 +1,1 @@
+private _confirm=[format["<t align='center'>Redeploy to %1?</t>",_robbery select 0],"Guard Duty!","Yes","No"]call BIS_fnc_guiMessage;if(_robbery isEqualTo 1&&!(SRV_evidence_status select 1)) exitWith{};if(_confirm) then{private _asy_pos=[[[_robbery select 1,10]],[]]call BIS_fnc_randomPos;uiSleep((random 3)+2);player setPos _asy_pos;};

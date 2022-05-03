@@ -1,0 +1,1 @@
+if!(isNull _unit) then{[[_unit,true],"life_fnc_setAggressive",_toSend,false,false]spawn life_fnc_MP;};};{if(_unit distance _x<2000) then{_x setVariable["ga_aggressive",time];};}forEach units _unit;

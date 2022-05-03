@@ -1,0 +1,1 @@
+private _ctfFlag=(life_dominatonCTF param[1,objNull]);private _isFrit=typeOf _vehicle isEqualTo"O_MRAP_02_F";if(_holdingFlag&&!isNull _ctfFlag&&(call life_fnc_isDominationActive)) then{SRV_dominationCTF attachTo[player,[0,0,-0.7]];};_vehicle removeEventHandler["Killed",0];

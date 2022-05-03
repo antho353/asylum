@@ -1,0 +1,1 @@
+params[["_unit",objNull,[objNull]]];if(player getVariable["ga_downed",false]) then{player setVariable["ga_adrenaline",true,true]};[]call life_fnc_hudUpdate;

@@ -1,0 +1,1 @@
+if!(_dialogQuestion) exitWith{};life_medic_enroute=_medic;_corpse setVariable["ga_requestAccepetor",[_medic,_medicName],true];

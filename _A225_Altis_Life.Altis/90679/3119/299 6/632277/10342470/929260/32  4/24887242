@@ -1,0 +1,1 @@
+case 15:{player playActionNow format[_gesture,4]};};uiSleep 2;};disableUserInput false;private _death=random 1;if(_death>0.7) then{systemChat"You have died of a drug overdose.";player setDamage 1;}else{player playActionNow"gestureNod";};life_drug_level=life_drug_level-1;

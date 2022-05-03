@@ -1,0 +1,1 @@
+player linkItem"ItemGPS";if(life_inv_debitcard isEqualTo 0) then{[true,"debitcard",1]call life_fnc_handleInv;};if(130 in life_side_talents) then{player addWeapon"Integrated_NVG_F"};[false]call life_fnc_saveGear;

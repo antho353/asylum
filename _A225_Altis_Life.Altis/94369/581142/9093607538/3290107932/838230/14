@@ -1,0 +1,1 @@
+resetCamShake;addCamShake[1,2,_pain*10];uiSleep 3.5;};};}else{if(player getVariable["ga_pain",-1]>0) then{player setVariable["ga_pain",nil,true];profileNamespace setVariable["ga_pain",_pain];};};

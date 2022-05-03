@@ -1,0 +1,1 @@
+if(ASY_worldName isEqualTo"Malden") exitWith{100};if(ASY_worldName isEqualTo"Altis") exitWith{150};if(true) exitWith{300};};private _dominationSafezones=["getDominationSpawns",SRV_dominationID]call life_fnc_dominationCfg;(({_object distance(getMarkerPos _x)<=(call _safezoneSize)}count _dominationSafezones) isNotEqualTo 0)

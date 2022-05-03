@@ -1,0 +1,1 @@
+};[_vehicle,position player,_vehicleWeapons]remoteExec["TON_fnc_createAdminVeh",2];private _extra=if(_vehicleWeapons isEqualTo[]) then{""}else{format[" with weapons: %1",_vehicleWeapons joinString", "]};[["-ADMINACTION-",player,profileName,format["Spawned vehicle %1%2",_vehicle,_extra]],"TON_fnc_logIt",2,false,false]spawn life_fnc_MP;

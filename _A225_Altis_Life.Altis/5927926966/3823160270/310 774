@@ -1,0 +1,2 @@
+#include"..\..\macro.h"
+["gangBankHistory"]call life_fnc_createDialog;life_gangBank_History=[];life_gangHistory_Ready=false;[[(life_gang_data select 0),player],"TON_fnc_gangBHistory",false,false]spawn life_fnc_MP;disableSerialization;[]spawn{waitUntil{life_gangHistory_Ready||!(alive player)};if!(alive player) exitWith{};if(life_gangBank_History isEqualTo[]) exitWith{["Failed to fetch gang history.","basic"]spawn life_fnc_handleMessage;life_gangHistory_Ready=false;

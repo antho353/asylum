@@ -1,0 +1,1 @@
+_obj_main addAction["<t color='#ADFF22'>Start Go-Kart time trial</t>",{["start",1]call life_fnc_timeTrial},"",1.5,false,false,"",'isNull objectParent player',5];};};

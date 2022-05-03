@@ -1,0 +1,1 @@
+disableSerialization;waitUntil{!isNull(findDisplay 2520)};private _dialog=findDisplay 2520;private _list=_dialog displayCtrl 2521;private _sortedPlayers=randomized_life_group_list;_sortedPlayers sort true;{_x params["_name","_group","_locked","_ownerPID","_password"];if!(isNull _group) then{private _extra=if(_locked) then{"[PASS]"}else{"[UNLOCKED]"};

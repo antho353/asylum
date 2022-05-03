@@ -1,0 +1,1 @@
+if!(_action) exitWith{_exit=true};};if(_exit) exitWith{};_unit setVariable["ga_restrained",nil,true];[["-UNRESTRAIN-",player,(profileName),format["(%1) unrestrained %2 (%3) (%4) at %5",playerSide,name _unit,getPlayerUID _unit,side _unit,getPos player]],"TON_fnc_logIt",2,false,false]spawn life_fnc_MP;

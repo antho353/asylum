@@ -1,0 +1,1 @@
+titleText["You have taken some turtle meat","PLAIN"];["kill","turtle",1]call life_fnc_handleQuest;life_side_exp=life_side_exp+6;["turtles",1]call life_fnc_statArrUpdate;}else{["You don't have enough inventory space for that.","basic"]spawn life_fnc_handleMessage;};

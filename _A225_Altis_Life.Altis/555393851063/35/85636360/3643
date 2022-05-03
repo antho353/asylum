@@ -1,0 +1,1 @@
+params[["_building",objNull,[objNull]],["_gangid",-1,[0]],["_houseOwner","",[""]]];if(isNull _building||_gangid isEqualTo-1) exitWith{};if!((life_gang_data select 0) isEqualTo _gangid) exitWith{};deleteMarkerLocal life_gangBldgMark;life_gangBldgMark="";life_vehicles deleteAt(life_vehicles find _building);life_houses deleteAt(life_houses find(str(getPosATL _building)));

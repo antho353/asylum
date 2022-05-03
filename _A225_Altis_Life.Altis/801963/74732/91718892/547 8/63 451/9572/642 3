@@ -1,0 +1,1 @@
+colorText[]={1,1,1,0.8};text="";sizeEx=0.03;class Attributes{font="PuristaSemibold";color="#FFFFFF";shadow=true;shadowColor="#000000";size="1";};};class hudhead:Life_RscStructuredText{idc=23525;x=0;y=0;w=1;h=0.04;colorBackground[]={0,0,0,0};text="";sizeEx=0.03;class Attributes{font="EtelkaMonospaceProBold";color="#FFFFFF";shadow=true;shadowColor="#000000";size="1";};};};};

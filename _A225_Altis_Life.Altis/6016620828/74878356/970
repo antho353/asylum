@@ -1,0 +1,1 @@
+private _vehicle=cursorObject;if(isNull life_holding_barrel) exitWith{};if!((typeOf _vehicle) in IL_Supported_Vehicles_BOAT) exitWith{};if(count nearestObjects[player,["Land_MetalBarrel_F"],5]>1) exitWith{["Too many barrels are nearby. You can only store 1 barrel in your boat at a time.","basic"]spawn life_fnc_handleMessage};

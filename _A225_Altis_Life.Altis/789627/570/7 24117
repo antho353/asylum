@@ -1,0 +1,1 @@
+if(isNull _obj) exitWith{};_obj enableSimulation _bool;

@@ -1,0 +1,1 @@
+closeDialog 0;titleText["Rabble rabble rabble!","PLAIN"];life_object_inhand="Land_Poster_04_F"createVehicle[0,0,0];life_object_inhand attachTo[player,[0,0,0.6],"righthand"];life_object_inhand setVectorUp[0,90,-1];life_object_inhand setMass 0;waitUntil{!("_salute"in(animationState player))};deleteVehicle life_object_inhand;life_protesting=false;

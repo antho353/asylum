@@ -1,0 +1,1 @@
+params[["_target",objNull,[objNull]]];if(isNull _target) exitWith{};if!(isPlayer _target) exitWith{};private _BH=8 in life_side_talents;private _idx=life_bounty_list findIf{(getPlayerUID _target) in _x};private _bhTarget=if(_idx isEqualTo-1) then{false}else{true};

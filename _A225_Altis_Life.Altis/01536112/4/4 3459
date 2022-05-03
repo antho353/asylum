@@ -1,0 +1,1 @@
+private _endFlag=domination_flags param[["Capture Point: Alpha","Capture Point: Bravo","Capture Point: Charlie","Capture Point: Delta"]find _endFlagName,objNull];[_startFlag,_endFlag]

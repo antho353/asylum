@@ -1,0 +1,1 @@
+life_trafficCam="camera"camCreate((_locations select _camera) select 0);life_trafficCam camSetFov 0.5;life_trafficCam setDir((_locations select _camera) select 1);life_trafficCam camCommit 0;life_trafficCam switchCamera"INTERNAL";["Press 4 to close the camera.","basic"]spawn life_fnc_handleMessage;

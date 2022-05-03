@@ -1,0 +1,1 @@
+params[["_house","",[""]]];if(_house isEqualTo"") exitWith{[]};private _return=switch(_house) do{case"Land_i_Garage_V1_F":{[0,0,0]};case"Land_i_Garage_V2_F":{[0,0,0]};

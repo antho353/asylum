@@ -1,0 +1,1 @@
+params[["_group",grpNull,[grpNull]],["_gangName","",[""]],["_gangID",-1,[0]]];if(_group isEqualTo grpNull||_gangName isEqualTo""||_gangID isEqualTo-1) exitWith{};life_gang_data=[_gangID,_gangName,1,[0,0,0]];life_gang_talents=[];

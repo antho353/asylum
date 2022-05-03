@@ -1,0 +1,17 @@
+{if!(_isOwner) then{_x ctrlEnable false};}forEach _mainButtons;if(_hasKeys) then{_viewStorage ctrlEnable true};if(_isGarage) then{_lightsButton ctrlEnable false};if(_hasKeys&&_isGarage) then{{_x ctrlEnable true}forEach(_mainButtons select{ctrlText _x=="Access Garage"||ctrlText _x=="Store Vehicle"})};{_x params["_color","_rgb"];private _index=_lightsColor lbAdd _color;_lightsColor lbSetData[_index,str _rgb];}forEach[["Regular",[250,150,50]],["Red",[40,0,0]],["Blue",[0,0,40]],["Aqua",[0,40,40]],["Green",[0,40,0]],["Orange",[80,40,0]],["Yellow",[80,80,0]],["Pink",[40,0,40]]];_lightsColor lbSetCurSel 0;_lightsButton ctrlAddEventHandler["ButtonClick",{params["_control"];private _display=ctrlParent _control;private _list=_display displayCtrl 2104;private _rgb=if((_list lbData(lbCurSel _list)) isEqualType[]) then{_list lbData(lbCurSel _list)}else{parseSimpleArray(_list lbData(lbCurSel _list))};[life_pInact_curTarget,_rgb]call life_fnc_lightHouseAction;closeDialog 0;}];private _houseName=getText(configFile>>"CfgVehicles">>typeOf _house>>"displayName");private _agingInfo=if(_isGarage) then{"Incompatible"}else{["Not Active","Active"]select(_house getVariable["ga_barrel_unaged",false])};private _greenhouseInfo=if(_isGarage) then{"Incompatible"}else{["Not Active","Active"]select(_house getVariable["ga_greenhouse_unaged",false])};private _leadContainerInfo=if(_isGarage) then{"Incompatible"}else{["Not Active","Active"]select(_house getVariable["ga_leadcontainer_unaged",false])};private _listPriceInfo=if(_house getVariable["ga_house_price",-1]isEqualTo-1) then{"No"}else{"$"+([_house getVariable["ga_house_price",-1]]call life_fnc_numberText)};private _agingBarrelCost=if(_house getVariable["ga_barrel_unaged",false]) then{20000}else{0};private _greenhouseCost=if(_house getVariable["ga_greenhouse_unaged",false]) then{20000}else{0};private _leadContainerCost=if(_house getVariable["ga_leadcontainer_unaged",false]) then{350000}else{0};private _physicalStorageCost=0;private _virtualStorageCost=0;{_x params["_storageCap","_cost"];if(_physicalCap<_storageCap) exitWith{};_physicalStorageCost=_physicalStorageCost+_cost;}forEach _physicalCaps;{_x params["_storageCap","_cost"];if(_virtualCap<_storageCap) exitWith{};_virtualStorageCost=_virtualStorageCost+_cost;}forEach _virtualCaps;private _houseValue="$"+([_houseCost+_physicalStorageCost+_virtualStorageCost+_agingBarrelCost+_greenhouseCost+_leadContainerCost]call life_fnc_numberText);private _houseInfoText=parseText(format["<t size='0.85' align='center'>
+	House:<br/>
+	%1<br/>
+	<br/>
+	Storage Capacity:<br/>
+	Virtual: %2<br/>
+	Physical: %3<br/>
+	<br/>
+	Aging Barrel: %4 <br/>
+	Greenhouse: %7 <br/>
+	Lead Container: %8 <br/>
+	Max Keys: %9<br/>
+	<br/>
+	Listed on Market: %5 <br/>
+	<br/>
+	House Value: %6<br/>
+	</t>",_houseName,_virtualCap,_physicalCap,_agingInfo,_listPriceInfo,_houseValue,_greenhouseInfo,_leadContainerInfo,_keyCapCount]);_title ctrlSetText format["House Management - %1",_houseID];_houseInfo ctrlSetStructuredText _houseInfoText;

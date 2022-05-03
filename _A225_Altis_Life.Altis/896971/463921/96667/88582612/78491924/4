@@ -1,0 +1,1 @@
+life_side_talents deleteAt(life_side_talents findIf{_x isEqualTo _talent});}forEach _talentsToRemove;[4]call life_fnc_ClupdatePartial;};

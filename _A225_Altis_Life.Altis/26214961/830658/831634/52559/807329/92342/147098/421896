@@ -1,0 +1,1 @@
+params[["_enable",true,[true]],["_unit",player,[objNull]]];private _radio=if(playerSide isEqualTo civilian) then{life_radio_civ}else{life_radio_med};if(isNil"_radio") exitWith{["An error occured. Please try again","basic"]spawn life_fnc_handleMessage};

@@ -1,0 +1,1 @@
+private"_return";switch(_mode) do{case 0:{_return=_config;};case 1:{_return=[];{if(_x select 3) then{_return pushBack _x;};}forEach _config;};case 2:{_return=-1;private _idx=_config findIf{(_x select 0) isEqualTo _val};if!(_idx isEqualTo-1) then{_return=_config select _idx;};};default{[]};};_return

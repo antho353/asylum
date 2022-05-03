@@ -1,0 +1,1 @@
+[format["%1 has given you keys for a %2",name _giver,_name],"basic"]spawn life_fnc_handleMessage;};

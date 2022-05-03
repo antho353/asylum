@@ -1,0 +1,1 @@
+onLoad="if (ASY_Server isEqualTo 1) then {(_this select 0 ) ctrlSetText 'images\mainLoadingScreen.jpg'} else {(_this select 0 ) ctrlSetText 'images\domination\domLoadingScreen.jpg'};";x=safeZoneX;y=SafeZoneY;w=safeZoneW;h=safeZoneH;colorBackground[]={0,0,0,0};};};};

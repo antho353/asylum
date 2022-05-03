@@ -1,0 +1,1 @@
+SPEC_EXIT=(findDisplay 60492) displayAddEventHandler["KeyDown",{params["_ctrl","_code","_shift","_ctrlKey","_alt"];if(_code isEqualTo 66) then{(findDisplay 60492) displayRemoveEventHandler["KeyDown",SPEC_EXIT];["Terminate",[player]]call BIS_fnc_EGSpectator;systemChat"You have stopped spectating.";};false;}];if!(isNull(findDisplay 2900)) then{(findDisplay 2900) closeDisplay 0};

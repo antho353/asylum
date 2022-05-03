@@ -1,0 +1,1 @@
+if(isNil{(group player) getVariable"gang_id"}&&!(life_gang_data isEqualTo[])) then{life_action_in_use=true;if!(isNull(findDisplay 2620)) then{[]spawn life_fnc_groupMenu;};[]spawn life_fnc_initGang;};};

@@ -1,0 +1,1 @@
+case(_enemyGang in life_gang_challenges&&!(_enemyGang in life_gang_wars)):{ctrlEnable[9583,true]};case!(_enemyGang in life_gang_wars):{ctrlEnable[9582,true]};default{};};};

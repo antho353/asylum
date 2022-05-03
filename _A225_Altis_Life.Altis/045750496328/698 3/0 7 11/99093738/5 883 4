@@ -1,0 +1,2 @@
+#include"..\..\..\..\macro.h"
+if(scriptAvailable(2.5)) exitWith{["Slow it down buddy!"]spawn life_fnc_handleMessage;};params[["_veh",objNull,[objNull]]];_veh=vehicle player;if(isNull _veh) exitWith{};if!(call life_subscribed) exitWith{["You must be an active subscriber to use this feature!"]spawn life_fnc_handleMessage};if!((driver _veh) isEqualTo player) exitWith{["You must be the driver to toggle SWAT Lights!"]spawn life_fnc_handleMessage};if(_veh isEqualTo player) exitWith{["You must be in a vehicle to toggle SWAT Lights!"]spawn life_fnc_handleMessage};

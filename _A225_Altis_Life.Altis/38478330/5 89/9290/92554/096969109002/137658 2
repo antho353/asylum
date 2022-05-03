@@ -1,0 +1,1 @@
+private"_return";switch(_mode) do{case"getCfg":{_return=_hexCfg;};case"getHexData":{_return=_hexCfg param[_hexCfg findIf{_toFind isEqualTo(_x param[0,0])},[]];};};_return;

@@ -1,0 +1,1 @@
+private _index=_list lbAdd format["%1 [Members: %2] - %3",_name,count(units _group),_extra];_list lbSetData[_index,_name];};}forEach(_sortedPlayers);if(lbSize _list isEqualTo 0) then{_list lbAdd"No groups are available. Create one instead!";(_dialog displayCtrl 2522) ctrlEnable false;};

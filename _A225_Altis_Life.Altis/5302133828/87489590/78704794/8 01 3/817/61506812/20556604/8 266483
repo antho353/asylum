@@ -1,0 +1,1 @@
+if!(_action) exitWith{};if!([_cost]call life_fnc_debitCard) exitWith{};life_side_talents=[];["You have forgotten everything you knew.","basic"]spawn life_fnc_handleMessage;[4]call life_fnc_ClupdatePartial;

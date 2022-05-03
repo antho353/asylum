@@ -1,0 +1,1 @@
+{removeMissionEventHandler["Draw3D",_x];life_dominationHandlesHUD=+(life_dominationHandlesHUD-[_x]);}forEach life_dominationHandlesHUD;life_dominationHandlesHUD=+[];life_domHudID=-1;

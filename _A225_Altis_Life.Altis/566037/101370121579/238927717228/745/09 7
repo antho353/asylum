@@ -1,0 +1,1 @@
+private _handle=[]spawn life_fnc_stripDownPlayer;waitUntil{scriptDone _handle};player forceAddUniform"U_Marshal";[]call life_fnc_giveMedkits;player linkItem"ItemMap";player linkItem"ItemWatch";player linkItem"ItemCompass";

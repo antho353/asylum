@@ -1,0 +1,1 @@
+disableSerialization;private _unit=cursorTarget;if(isNull _unit||!isPlayer _unit) exitWith{};if(player distance _unit>8) exitWith{};["life_ticket_give"]call life_fnc_createDialog;

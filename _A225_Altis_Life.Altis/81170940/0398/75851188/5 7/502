@@ -1,0 +1,1 @@
+};private _args=_this select[1,count _this];private _asy_fncCall=compile(getText(getMissionConfig"rwt_chatcom">>"commands">>_com>>"code"));_args call _asy_fncCall;

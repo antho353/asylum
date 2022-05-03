@@ -1,0 +1,1 @@
+[];};playableUnits select{(_x getVariable["gang_data",[-1]]select 0) isEqualTo _gangID};

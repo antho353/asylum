@@ -1,0 +1,1 @@
+params[["_controlData",[],[[]]]];_controlData params["_control","_selectedIndex"];private _asy_display=findDisplay 388000;if(isNull _asy_display) exitWith{};private _itemPreview=_asy_display displayCtrl 388003;private _class=_control lnbData[_selectedIndex,0];

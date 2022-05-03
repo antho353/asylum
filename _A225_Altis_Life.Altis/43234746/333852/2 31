@@ -1,0 +1,1 @@
+diag_log format["||SPY-GLASS Observes|| Name: %1 | UID: %2 | Reason: %3",_pName,_pUID,_pReason];

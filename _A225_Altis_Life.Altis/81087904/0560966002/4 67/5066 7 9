@@ -1,0 +1,1 @@
+if(currentVisionMode player isEqualTo 1) then{player action["nvGogglesOff",player];player linkItem(life_fullScreenNVG select 1);life_fullScreenNVG=[false,""];

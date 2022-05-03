@@ -1,0 +1,1 @@
+_vehicle setVariable["ga_nitro",(_vehicle getVariable["ga_nitro",0])-1,true];systemChat"Nitro engaged.";private _vel=velocity _vehicle;private _dir=direction _vehicle;private _speed=20;_vehicle setVelocity[(_vel select 0)+(sin _dir*_speed),(_vel select 1)+(cos _dir*_speed),_vel select 2];

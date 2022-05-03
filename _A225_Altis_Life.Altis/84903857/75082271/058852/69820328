@@ -1,0 +1,1 @@
+};["action","reportswat",1]spawn life_fnc_handleQuest;[[player],"TON_fnc_registerSwat",2]call life_fnc_MP;

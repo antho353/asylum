@@ -1,0 +1,1 @@
+_formatedInv pushBack[_x,_val];_formatedWeight=_formatedWeight+_itemWeight;};}forEach([2]call life_fnc_virtItemCfg);private _return=[_loadout,[_formatedInv,_formatedWeight],life_uniformBackpack_skins];life_gear=_return;if(_save&&{playerSide isEqualTo civilian}) then{[3]call life_fnc_ClupdatePartial;};

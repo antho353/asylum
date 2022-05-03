@@ -1,0 +1,1 @@
+params[["_class","",[""]]];if(_class isEqualTo"") exitWith{};private _magazineWellsMagazines=[];private _magazineWells=getArray(configfile>>"CfgWeapons">>_class>>"magazineWell");private _magazines=getArray(configfile>>"CfgWeapons">>_class>>"magazines");{_magazineWellsMagazines append(getArray(configfile>>"CfgMagazineWells">>_x>>"BI_Magazines"))}forEach _magazineWells;

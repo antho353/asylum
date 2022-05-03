@@ -1,0 +1,2 @@
+class rwt_chatcom{
+#include"..\..\core\chatcom\settings\config.hpp"

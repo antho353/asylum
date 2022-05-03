@@ -1,0 +1,1 @@
+private _return=nil;switch(_mode) do{case("getIndex"):{};case("getColumn"):{_return=(_stats param[_stats findIf{(_x select 0) isEqualTo _toFind},[]]) param[1,""]};};_return

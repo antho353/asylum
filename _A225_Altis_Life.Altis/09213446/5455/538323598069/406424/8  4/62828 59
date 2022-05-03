@@ -1,0 +1,1 @@
+_obj_main addAction["Request Bounty",{[]call life_fnc_requestBounty},nil,1.5,false,false,"",'license_civ_bounty && playerSide isEqualTo civilian',5];

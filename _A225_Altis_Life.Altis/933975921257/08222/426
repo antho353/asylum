@@ -1,0 +1,1 @@
+_chrByte findIf{!(_x in _allowed)}isEqualTo-1

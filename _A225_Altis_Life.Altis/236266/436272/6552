@@ -1,0 +1,1 @@
+if(isNull life_holding_barrel) exitWith{};params[["_vendor",objNull,[objNull]]];if(isNull _vendor||(player distance _vendor>6)) exitWith{};if((life_maxWeight-life_carryWeight)<20) exitWith{systemChat"You don't have enough room for this."};

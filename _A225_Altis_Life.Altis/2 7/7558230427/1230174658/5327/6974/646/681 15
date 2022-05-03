@@ -1,0 +1,1 @@
+if(toLower _item in _compatibleItems) exitWith{_ret=switch(_weapon) do{case(primaryWeapon player):{1};case(secondaryWeapon player):{2};case(handgunWeapon player):{3};default{0};};};}forEach _weaponArray;_ret;

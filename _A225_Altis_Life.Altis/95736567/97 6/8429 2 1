@@ -1,0 +1,1 @@
+};}forEach magazinesAmmo player;player removeMagazines _magClassname;while{_totalAmmoCount isNotEqualTo 0}do{private _magAmmo=_totalAmmoCount min _MagCapacity;player addMagazine[_magClassname,_magAmmo];_totalAmmoCount=_totalAmmoCount-_magAmmo;};};_repackedMagazines pushBack _magClassname;};}forEach _currentMagazines;

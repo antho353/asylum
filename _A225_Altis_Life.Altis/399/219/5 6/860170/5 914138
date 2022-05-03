@@ -1,0 +1,1 @@
+private _list=[];{if(_isSwat) then{if(_shop in(_x select 3)) then{_list pushBack[_x select 0,_x select 1,_x select 2];};}else{if(_shop in(_x select 3)&&(_x select 4)) then{_list pushBack[_x select 0,_x select 1,_x select 2];};}}forEach _weaponList;[_shopName,_list]

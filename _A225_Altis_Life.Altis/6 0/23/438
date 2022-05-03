@@ -1,0 +1,2 @@
+#include"..\..\macro.h"
+if((call life_adminLevel)<=2) exitWith{closeDialog 0;};disableSerialization;private _vehicleData=parseSimpleArray(lbData[2943,lbCurSel 2943]);private _vehicle=_vehicleData select 0;private _vehicleWeapons=_vehicleData select 1;if(isNil"_vehicle"||_vehicle isEqualTo"") exitWith{};if!(scriptAvailable(7)) then{["Sending request to server to create vehicle...","basic"]spawn life_fnc_handleMessage;

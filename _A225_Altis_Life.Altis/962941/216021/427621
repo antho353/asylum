@@ -1,0 +1,1 @@
+_corpse hideObject true;_corpse enableSimulation false;if(local _corpse) then{hideBody _corpse;deleteVehicle _corpse;};

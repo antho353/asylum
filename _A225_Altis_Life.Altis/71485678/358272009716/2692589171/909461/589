@@ -1,0 +1,1 @@
+if(playerSide isEqualTo west||isNull _unit) exitWith{};if(_enable) then{_radio radioChannelAdd[_unit];}else{_radio radioChannelRemove[_unit];};

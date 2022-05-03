@@ -1,0 +1,1 @@
+params[["_side",west,[west]],["_unit",objNull,[objNull]]];if((_side isEqualTo west)&&(call life_fnc_isDominationActive)) exitWith{"SRT Trooper "};private _return=if(_side isEqualTo west) then{switch(_unit getVariable["ga_copLevel",0]) do{case 1:{"APD Cadet "};case 2:{"APD Constable "};case 3:{"APD Corporal "};case 4:{"APD Sergeant "};

@@ -1,0 +1,1 @@
+disableSerialization;private _display=findDisplay 2900;private _text=_display displayCtrl 2944;private _info=lbData[2901,lbCurSel 2901];_info=missionNamespace getVariable _info;if(isNil"_info") exitWith{_text ctrlSetText"Player no longer exists?";

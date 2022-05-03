@@ -1,0 +1,1 @@
+private _return=(({!(_x in _valid)}count _array) isEqualTo 0);_return;

@@ -1,0 +1,1 @@
+private _barrel=life_holding_barrel;[]call life_fnc_dropOil;private _asy_pos=[0,0,0];_barrel setPos _asy_pos;_asy_pos=if(typeOf _vehicle=="C_Boat_Transport_02_F") then{[0,1,-0.4]}else{[0,-1,-0.4]};_barrel attachTo[_vehicle,_asy_pos];_vehicle setVariable["ga_oil_barrel",_barrel,true];

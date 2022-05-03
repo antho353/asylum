@@ -1,0 +1,1 @@
+params[["_faction",sideUnknown,[sideUnknown]],["_position",(getPos player),[[]]],["_radius",30,[0]]];private _ret=false;if(_faction isEqualTo sideUnknown) exitWith{_ret};

@@ -1,0 +1,1 @@
+params[["_pain",0,[0]]];life_pain=_pain;if(_pain>0) then{player setVariable["ga_pain",_pain,true];systemChat"You are in pain";profileNamespace setVariable["ga_pain",_pain];_pain spawn{private _pain=_this;while{true}do{if!(_pain isEqualTo life_pain) exitWith{};

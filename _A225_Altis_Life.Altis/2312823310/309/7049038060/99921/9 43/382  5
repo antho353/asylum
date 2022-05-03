@@ -1,0 +1,1 @@
+params[["_isForced",false,[false]]];if((_isForced)||([false,"cocainep",1]call life_fnc_handleInv)) then{if(life_cocaine_effect select 0) then{life_cocaine_effect=[true,time];}else{life_cocaine_effect=[true,time];[]spawn{waitUntil{uiSleep 1;(!alive player||((time-(life_cocaine_effect select 1))>(6*60)));};player enableFatigue true;life_cocaine_effect=[false,time];

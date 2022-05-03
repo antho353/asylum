@@ -1,0 +1,1 @@
+case((vehicle player) isKindOf"Air"):{setViewDistance tawvd_air};};

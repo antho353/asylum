@@ -1,0 +1,1 @@
+if!(isNull life_pInact_curTarget) then{private _displayText="";private _keyholders=life_pInact_curTarget getVariable["ga_house_keys",[]];{_x params["_playerUID","_playerRank","_playerName"];_displayRank=switch(_playerRank) do{case(1):{"Both"};case(2):{"Inv"};case(3):{"Keys"};};private _player=allPlayers param[allPlayers findIf{(getPlayerUID _x) isEqualTo _playerUID},objNull];

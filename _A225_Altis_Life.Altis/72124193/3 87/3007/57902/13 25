@@ -1,0 +1,1 @@
+params["_obj_main","_stance"];if(_obj_main isKindOf"CAManBase") then{};_obj_main addAction["Bounty Hunter Shop",life_fnc_weaponShopMenu,"bounty",1.5,false,false,"",'license_civ_bounty && playerSide isEqualTo civilian',5];_obj_main addAction["Bounty Hunter Item Shop",life_fnc_virtualShopMenu,"vig",1.5,false,false,"",'license_civ_bounty && playerSide isEqualTo civilian',5];

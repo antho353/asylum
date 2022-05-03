@@ -1,0 +1,1 @@
+_escortee setVariable["ga_escorting",nil,true];player setVariable["ga_escortObj",nil];detach _escortee;life_escort=objNull;

@@ -1,0 +1,1 @@
+[format["You switched to %1.",_text],"basic"]spawn life_fnc_handleMessage;private _curWep=currentWeapon player;private _curAmmo=player ammo _curWep;player setAmmo[_curWep,0];uiSleep 0.5;player setAmmo[_curWep,_curAmmo];

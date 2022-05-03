@@ -1,0 +1,1 @@
+[0]call life_fnc_ClUpdatePartial;titleText[format["You have sold %1 barrels of oil for $%2",_oilAmount,[_price]call life_fnc_numberText],"PLAIN"];["sell","oilp",_oilAmount]spawn life_fnc_handleQuest;};

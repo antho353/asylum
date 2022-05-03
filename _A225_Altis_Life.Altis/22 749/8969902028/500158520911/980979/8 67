@@ -1,0 +1,1 @@
+if(playerSide isEqualTo civilian&&(ASY_Server isEqualTo 1)) exitWith{};[]call life_fnc_calWe1ght;private _num=missionNamespace getVariable(format["life_inv_%1","firstAidKit"]);private _amount=switch(true) do{case(_num>=4):{0};case(_num isEqualTo 3):{1};

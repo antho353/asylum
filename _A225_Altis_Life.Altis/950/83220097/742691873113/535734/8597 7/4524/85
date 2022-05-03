@@ -1,0 +1,1 @@
+life_action_time=time+7;waitUntil{uiSleep 0.25;life_action_time<time};private _obj_main=player;removeAllActions _obj_main;life_actions=[];life_show_actions=false;

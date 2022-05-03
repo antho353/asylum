@@ -1,0 +1,1 @@
+};}else{if([true,_item,_val]call life_fnc_handleInv) then{[format["%1 returned %2 %3 because they couldn't hold that amount.",[name _from]call life_fnc_cleanName,_val,_type],"basic"]spawn life_fnc_handleMessage;};};

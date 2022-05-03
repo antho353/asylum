@@ -1,0 +1,2 @@
+#include"..\macro.h"
+waitUntil{!(isNull(findDisplay 46))};if((call life_medicLevel)<1) exitWith{["NotWhitelisted",false,true]call BIS_fnc_endMission;uiSleep 35;};player setVariable["ga_medLevel",(call life_medicLevel),true];life_medPartners=[];

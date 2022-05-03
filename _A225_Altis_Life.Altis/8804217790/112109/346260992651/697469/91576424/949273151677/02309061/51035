@@ -1,0 +1,2 @@
+#include"..\..\..\..\..\..\..\macro.h"
+if(scriptAvailable(60)) exitWith{["You can only request a superior once every minute"]spawn life_fnc_handleMessage;};private _message="Officer is requesting a higher up at their location!";

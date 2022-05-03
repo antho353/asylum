@@ -1,0 +1,1 @@
+life_gang_wars pushBackUnique _gang;}else{["<t color='#FF0000' size='1.5' align='center'>War Ended</t><br/><t color='#FFFFFF'>One of your gang's wars has ended.","basic"]spawn life_fnc_handleMessage;life_gang_wars deleteAt(life_gang_wars find _gang);};if!(isNull(findDisplay 9580)) then{[]spawn life_fnc_gan1gWarsMenu};

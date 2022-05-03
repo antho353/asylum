@@ -1,0 +1,1 @@
+_total=_total+(_itemWeight*(_x select 1));}forEach _this;_total

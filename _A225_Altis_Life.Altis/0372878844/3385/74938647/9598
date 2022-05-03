@@ -1,0 +1,1 @@
+private _worldSpace=_house modelToWorld _selectionPos;if(player distance _worldSpace<2.4) exitWith{_door=_i};};_door;

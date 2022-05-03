@@ -1,0 +1,1 @@
+case 2:{"giftXmas"};default{"giftAdmin"};};[true,_item,1]call life_fnc_handleInv;[format["<t color='#8034EB' align='center'><t size='1'>Gift Received</t></t><br/>You have been given %1! Open your inventory and use the item to see what is inside! Warning, some gifts may be illegal! Thanks for playing at Asylum!",_giftName],"basic"]spawn life_fnc_handleMessage;

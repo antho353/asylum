@@ -1,0 +1,1 @@
+if!(life_canJump&&isNull objectParent player&&isTouchingGround player) exitWith{};life_canJump=false;private _height=2.5;private _maxVel=if(call life_fnc_isDominationActive) then{5.5}else{5.3};private _vel=(velocity player) apply{[selectMin[_maxVel,_x],selectMax[-1*_maxVel,_x]]select(_x<0)};private _dir=direction player;private _speed=0.4;

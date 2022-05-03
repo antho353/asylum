@@ -1,0 +1,1 @@
+if(_isPlaySound) then{playSound _sound;}else{_source say3D _sound;};

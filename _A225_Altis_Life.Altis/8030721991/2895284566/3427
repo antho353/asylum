@@ -1,0 +1,1 @@
+params[["_ASY_code",{},[{}]],["_this",[]]];private"_ASY_return";isNil{_ASY_return=([_x]apply{call _ASY_code}) select 0;

@@ -1,0 +1,1 @@
+license_civ_air=false;license_civ_truck=false;license_civ_boat=false;["You have lost all your motor vehicle licenses for vehicular manslaughter.","basic"]spawn life_fnc_handleMessage;};};case 3:{if(license_civ_gun) then{license_civ_gun=false;["You have lost your firearms license for manslaughter.","basic"]spawn life_fnc_handleMessage;};};};

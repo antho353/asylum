@@ -1,0 +1,1 @@
+private _marker=createMarkerLocal[format["phouse_%1",_x select 2],_position];_marker setMarkerTextLocal _houseName;_marker setMarkerColorLocal"ColorBlue";_marker setMarkerTypeLocal"mil_end";};}forEach life_houses;

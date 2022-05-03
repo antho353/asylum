@@ -1,0 +1,1 @@
+private _escortee=life_escort;if(isNull _escortee) exitWith{};if!(_escortee getVariable["ga_escorting",false]) exitWith{};

@@ -1,0 +1,1 @@
+private _cost=call(life_respec_fee)*(count life_side_talents);private _action=[format["<t align='center'>If you proceed you will unlearn %1 talent(s) for a total cost of $%2!</t>",count life_side_talents,[_cost]call life_fnc_numberText],"Unlearn Talents","Yes","No"]call BIS_fnc_guiMessage;

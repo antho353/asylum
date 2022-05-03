@@ -1,0 +1,1 @@
+private _taxRate=SRV_governorData param[2,0];private _return=(_taxRate/100);

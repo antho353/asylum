@@ -1,0 +1,1 @@
+params[["_unit",objNull,[objNull]]];if(isNull _unit) exitWith{};if(player distance(getMarkerPos"jail_marker2")>70) exitWith{["You can't use this outside of prison!","basic"]spawn life_fnc_handleMessage};if(time-life_last_shank<(60*3)) exitWith{["You can only shank someone every 3 minutes!","basic"]spawn life_fnc_handleMessage};if(player distance _unit>2) exitWith{};

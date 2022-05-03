@@ -1,0 +1,1 @@
+deleteMarkerLocal life_gangBldgMark;life_gang_data=[];life_gangBuilding=[objNull,[]];life_gangBldgMark="";player setVariable["gang_data",nil,true];["Leaving gang...","basic"]spawn life_fnc_handleMessage;closeDialog 0;

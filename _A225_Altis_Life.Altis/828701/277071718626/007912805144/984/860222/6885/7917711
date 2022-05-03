@@ -1,0 +1,1 @@
+_inputArray=_inputArray apply{_cnt=_cnt+1;[_x call _algorithmFnc,_cnt,_x]};_inputArray sort(_sortDirection=="ASCEND");_inputArray apply{_x select 2}};_inputArray=+_inputArray;_inputArray sort(_sortDirection=="ASCEND");_inputArray

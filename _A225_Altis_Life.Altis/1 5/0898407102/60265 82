@@ -1,0 +1,1 @@
+player setVelocity[(_vel select 0)+(sin _dir*_speed),(_vel select 1)+(cos _dir*_speed),(_vel select 2)+_height];player switchMove"AovrPercMrunSrasWrflDf";[["AovrPercMrunSrasWrflDf",0,"switchMove",player],"life_fnc_handleAnim",(allPlayers select{(_x distance player)<=30})-[player]]spawn life_fnc_MP;[]spawn{uiSleep 2;life_canJump=true;};

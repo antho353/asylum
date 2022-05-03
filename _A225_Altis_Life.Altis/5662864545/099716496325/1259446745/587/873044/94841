@@ -1,0 +1,1 @@
+[]call life_fnc_ClupdateRequest;["Syncing player information to the server. Please wait up to 20 seconds before leaving.","basic"]spawn life_fnc_handleMessage;[]spawn{life_session_time=true;uiSleep(5*60);life_session_time=false;};

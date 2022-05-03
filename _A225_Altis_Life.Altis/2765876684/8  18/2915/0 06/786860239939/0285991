@@ -1,0 +1,1 @@
+params[["_inputArray",[]],["_inputParams",[]],["_algorithmFnc",{}],["_sortDirection","ASCEND"],["_filterFnc",{}]];if!(_filterFnc isEqualTo{}) then{_inputArray=_inputArray select _filterFnc;};if!(_algorithmFnc isEqualTo{}) exitWith{_cnt=0;

@@ -1,0 +1,1 @@
+};};case 1:{_ret=[];};case 2:{_ret=[["G_Diving",nil,50]];};case 3:{_ret=[["V_RebreatherB",nil,500]];if(call life_donorLevel>=4) then{_ret pushBack["V_RebreatherIR",nil,500];};};case 4:{_ret=[["B_SCBA_01_F",nil,500]];};};if(69 in life_side_talents&&!(_filter isEqualTo 5)) then{_ret append([_filter]call life_fnc_clothing_kart);};_ret;

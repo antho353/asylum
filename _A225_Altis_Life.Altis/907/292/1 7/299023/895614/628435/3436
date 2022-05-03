@@ -1,0 +1,1 @@
+{_magazineWellsMagazines append(getArray(configfile>>"CfgMagazineWells">>_x>>"BI_Enoch_Magazines"))}forEach _magazineWells;{_magazines pushBackUnique _x}forEach _magazineWellsMagazines;if((_class isEqualTo"arifle_ARX_hex_F")&&(call life_fnc_isDominationActive)) then{_magazines pushBackUnique"10Rnd_50BW_Mag_F"};_magazines

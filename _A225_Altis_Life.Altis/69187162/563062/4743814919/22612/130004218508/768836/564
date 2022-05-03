@@ -1,0 +1,1 @@
+}else{life_fullScreenNVG=[true,hmd player];player action["nvGogglesOff",player];player unlinkItem(life_fullScreenNVG select 1);player action["nvGoggles",player];};

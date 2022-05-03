@@ -1,0 +1,1 @@
+params[["_exclude","",[""]]];private _federalEvents=[["fed",life_fed_robbed param[0,false]],["bank",life_bank_robbed param[0,false]],["evidence",SRV_evidence_status param[0,false]],["prison",life_prison_inProgress],["convoy",SRV_convoy_status param[0,false]],["asylum",SRV_mentalAsylumData param[1,false]],["jewelry",SRV_jewelryEmporiumSRV param[1,false]]];

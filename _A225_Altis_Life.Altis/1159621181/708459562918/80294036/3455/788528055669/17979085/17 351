@@ -1,0 +1,1 @@
+case 5:{0.125};case 4:{0.075};case 3:{0.05};default{0};};_amount=_amount*_multiplier;systemChat format["You've earned %1 prestige for the actions of %2.",_amount,name _unit];}else{systemChat format["You've earned %1 prestige.",_amount];};life_prestige=life_prestige+_amount;[16]call life_fnc_ClupdatePartial;

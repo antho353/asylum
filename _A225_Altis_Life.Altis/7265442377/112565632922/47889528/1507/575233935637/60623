@@ -1,0 +1,1 @@
+private _deleteTime=if([_vehicle]call life_fnc_inDomSafezone) then{60}else{120};_vehicle setVariable["ga_dom_objectCleanTime",serverTime+_deleteTime,2];

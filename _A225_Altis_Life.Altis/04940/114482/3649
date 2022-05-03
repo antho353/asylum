@@ -1,0 +1,1 @@
+if(_vehicle distance player>15) exitWith{};player moveInCargo _vehicle;

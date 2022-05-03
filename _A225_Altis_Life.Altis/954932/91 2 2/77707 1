@@ -1,0 +1,1 @@
+params[["_house",objNull,[objNull]],["_gangID",-1,[0]]];if(isNull _house||!(_gangID isEqualTo(life_gang_data param[0,-5]))) exitWith{};life_gangBuilding=[_house,getPosATL _house];life_gang_data set[3,getPosATL _house];deleteMarkerLocal life_gangBldgMark;private _marker=createMarkerLocal[format["phouse_%1%2",_gangID,_house getVariable["ga_homeOwner",""]],getPosATL _house];

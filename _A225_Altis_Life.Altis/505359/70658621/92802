@@ -1,0 +1,1 @@
+if(_govBuilding) then{_obj_main addAction["Run for Office",life_fnc_govCandidateMenu,"",1.5,false,false,"",'',5];};

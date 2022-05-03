@@ -1,0 +1,1 @@
+params[["_vehicle",objNull,[objNull]],["_sirenType","",[""]],["_sirenObject",objNull,[objNull]],["_driver",objNull,[objNull]]];if(isNull _vehicle||_sirenType isEqualTo"") exitWith{};if(isNil{_vehicle getVariable"ga_siren"}) exitWith{};private _length=switch(_sirenType) do{case"medicWail":{5.5688};

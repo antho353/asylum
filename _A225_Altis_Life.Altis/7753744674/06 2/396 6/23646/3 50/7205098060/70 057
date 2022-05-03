@@ -1,0 +1,1 @@
+params[["_house",objNull,[objNull]],["_rgb",[],[[]]]];if(isNull _house) exitWith{};if!(_house isKindOf"House_F") exitWith{};private _enable=isNull(_house getVariable["ga_lightSource",objNull]);

@@ -1,0 +1,1 @@
+private _price=["getLowestPrice","oilp"]call life_fnc_virtItemCfg;private _oilAmount=life_inv_oilp;_price=_price*_oilAmount;if([false,"oilp",_oilAmount]call life_fnc_handleInv) then{life_cash=life_cash+_price;life_cashCache=((life_cash/4)+7);

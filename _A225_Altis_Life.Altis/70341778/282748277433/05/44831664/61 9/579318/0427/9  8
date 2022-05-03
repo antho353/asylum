@@ -1,0 +1,1 @@
+if(isNil"life_session_time") then{life_session_time=false};if(life_session_time) exitWith{["You have already used the sync option, you can only use this feature once every 5 minutes.","basic"]spawn life_fnc_handleMessage};

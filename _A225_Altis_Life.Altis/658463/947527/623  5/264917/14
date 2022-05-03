@@ -1,0 +1,2 @@
+#include"..\..\..\..\macro.h"
+while{true}do{waitUntil{uiSleep 0.1;(!isNull(findDisplay 55))};_selectedChannel=currentChannel;if(ctrlText((findDisplay 55) displayCtrl 101)=="\A3\ui_f\data\igui\rscingameui\rscdisplayvoicechat\microphone_ca.paa") then{if(currentChannel isEqualTo 1||currentChannel isEqualTo 0||currentChannel isEqualTo 7) then{life_sideChatKickCount=life_sideChatKickCount+1;

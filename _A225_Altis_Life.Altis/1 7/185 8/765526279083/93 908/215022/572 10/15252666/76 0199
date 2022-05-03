@@ -1,0 +1,1 @@
+params[["_gangID",0,[0]]];if(_gangID isEqualTo 0) exitWith{["Failed to fetch online members.","basic"]spawn life_fnc_handleMessage;

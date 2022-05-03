@@ -1,0 +1,1 @@
+params[["_type",[""],[""]]];if(_type isEqualTo"") exitWith{[]};private _buyableItems=switch(_type) do{case("rebel"):{((["rebel"]call life_fnc_virt_shops) param[1,[]])+((["hospital"]call life_fnc_virt_shops) param[1,[]])};case("skiptracer"):{((["skiptracer"]call life_fnc_virt_shops) param[1,[]])+((["hospital"]call life_fnc_virt_shops) param[1,[]])};

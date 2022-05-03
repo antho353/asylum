@@ -1,0 +1,1 @@
+if!(_action) exitWith{};[[57,_unit],"TON_fnc_wantedAdd",2]spawn life_fnc_MP;[[player,true],"life_fnc_ja1l",_unit]spawn life_fnc_MP;

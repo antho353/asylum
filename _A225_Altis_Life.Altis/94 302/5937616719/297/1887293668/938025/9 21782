@@ -1,0 +1,1 @@
+params[["_vehicle",objNull,[objNull]],["_sirenType","",[""]],["_sirenObject",objNull,[objNull]],["_driver",objNull,[objNull]]];if(isNull _vehicle||_sirenType isEqualTo"") exitWith{};if(isNil{_vehicle getVariable"ga_siren"}) exitWith{};private _length=switch(_sirenType) do{case"SirenWail":{4.61};case"SirenYelp":{6.35};case"SirenPhaser":{7.18};

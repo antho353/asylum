@@ -1,0 +1,2 @@
+#include"..\..\..\macro.h"
+if(scriptAvailable(10)) exitWith{};params[["_type",0,[0]]];waitUntil{uiSleep 2;(alive player&&!(life_maxWeight isEqualTo life_carryWeight))};private _giftName=switch(_type) do{case 0:{"an Admin gift"};case 1:{"a Halloween gift"};case 2:{"a Christmas gift"};default{"a gift"};};private _item=switch(_type) do{case 0:{"giftAdmin"};case 1:{"giftHallo"};

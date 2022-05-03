@@ -1,0 +1,2 @@
+#include"..\..\..\..\..\..\..\macro.h"
+params[["_typeAction","",[""]]];switch(_typeAction) do{case("enterDen"):{private _action=["Would you like to enter the Dark Fungi Den?","Elevator 3000","Yes!","No!"]call BIS_fnc_guiMessage;if!(_action) exitWith{};disableUserInput true;cutText["","BLACK OUT",0];uiSleep 1;_asy_pos=[9068.34,22446.6,0.00187492];player setPos _asy_pos;uiSleep 0.5;player playMoveNow"";uiSleep 2;player playMoveNow"";cutText["","BLACK IN",0];titleText[format["You are currently 250 meters below %1",worldName],"PLAIN"];

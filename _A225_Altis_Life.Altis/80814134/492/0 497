@@ -1,0 +1,1 @@
+if!(playerSide isEqualTo civilian) exitWith{["You can't play laser tag while on duty! GET TO WORK!","basic"]spawn life_fnc_handleMessage};["You have joined the laser tag queue. The next game will start any time within the next few minutes. Stay nearby or joining will fail!","basic"]spawn life_fnc_handleMessage;

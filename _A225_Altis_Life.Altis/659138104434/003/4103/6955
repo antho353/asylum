@@ -1,0 +1,1 @@
+}else{player action["hideWeapon",player,player,0];};life_holstered=_state;

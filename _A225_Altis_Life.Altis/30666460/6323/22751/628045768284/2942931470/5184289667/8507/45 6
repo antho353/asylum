@@ -1,0 +1,1 @@
+if(isNil"life_treasureSpot") then{[]call life_fnc_treasureChestCreate;};disableSerialization;createDialog"Life_TreasureMap";private _display=findDisplay 74700;if(isNull _display) exitWith{};private _treasureMap=_display displayCtrl 74701;_treasureMap ctrlEnable false;_treasureMap ctrlMapAnimAdd[0,0.01,(life_treasureSpot select 1)];
